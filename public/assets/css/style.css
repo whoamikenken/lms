@@ -1,0 +1,217 @@
+.admin-logo {
+    max-height: 50px;
+    max-width: 100%;
+}
+.bg-gradient-primary {
+    background-color: #224abe;
+    background-image: linear-gradient(180deg, #2c2f7c 10%, #224abe 100%);
+    background-size: cover;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #224abe;
+    border-color: #224abe;
+}
+.text-primary {
+    color: #224abe !important;
+}
+.nav-item.active .nav-link {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+.nav-item:hover .nav-link, .nav-item:focus .nav-link, .nav-item .nav-link[aria-expanded="true"]{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+.nav-item .nav-link[aria-expanded="true"] i {
+    color: rgb(255, 255, 255);
+}
+.sidebar-dark .nav-item .nav-link {
+    width: 100%;
+    padding: 12px 1rem;
+}
+.toggled.sidebar-dark .nav-item {
+    margin: 5px 0;
+    border-radius: 0 !important;
+}
+.sidebar-dark .nav-item{
+    margin: 5px 1rem;
+    overflow: hidden;
+    border-radius: 0.35rem !important;
+}
+.sidebar-dark #sidebarToggle::after {
+    color: #2c2f7c;
+}
+.sidebar{
+    position: relative;
+}
+.sidebar-dark #sidebarToggle {
+    background-color: rgb(255 255 255);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -15px;
+    bottom: 5px;
+    border: 3px solid #2349ba !important;
+    z-index: 9;
+}
+.sidebar #sidebarToggle:hover {
+    background-color: rgb(255 255 255);
+}
+.sidebar-dark.toggled #sidebarToggle::after {
+    color: #2c2f7c;
+}
+.thepagination {
+    padding: 12px 22px;
+}
+.thefilter {
+    padding: 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thefilter label, .thepagination {
+    margin: 0;
+    font-size: 14px;
+}
+.thefilter label {
+    width: 100%;
+    position: relative;
+}
+i.fas.fa-search.thesearch {
+    position: absolute;
+    left: 22px;
+    top: 18px;
+}
+.thefilter label span{
+    display: none;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    display: inline-block;
+    width: 100%;
+    border: 0;
+    padding: 0 22px;
+    padding-left: 45px;
+    height: 50px;
+    font-size: 16px;
+}
+.form-control:focus {
+    color: #6e707e;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+table.dataTable {
+    clear: both;
+    margin-top: 0px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    border-bottom: 1px solid #e3e6f082;
+}
+.dataTables_length label{
+    margin-bottom: 0;
+    margin: 0 20px;
+}
+select.custom-select.custom-select-sm.form-control.form-control-sm {
+    width: auto;
+    padding: 0 25px 0 10px;
+    margin: 0 5px;
+}
+tfoot {
+    display: none;
+}
+th.sorting {
+    color: #2c2f7c;
+    padding: 10px 25px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #e3e6f082;
+}
+.table td {
+    vertical-align: top;
+    border-top: 1px solid #e3e6f082;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+tr.clickable-row {
+    cursor: pointer;
+}
+tr.clickable-row:hover {
+    background: #f8f9fc;
+    color: #2c2f7c;
+}
+td.date-txt {
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+img.profile-pic {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+p.label {
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #666666;
+    font-weight: 800;
+}
+img#image_product {
+    max-height: 300px;
+    max-width: 100%;
+}
+.card-row {
+    background: #ffffff;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+h5.title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.scroll-to-top {
+    bottom: 8rem;
+    z-index: 9;
+}
+.mobile-menu {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+}
+.nav-pills > li > a [class*="fa-"]{
+    top: 31px !important;
+}
+.menubtn {
+    background: linear-gradient(180deg, #0e3ba0 0%, #2c2f7c 100%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10;
+}
+@media (min-width: 768px){
+    .sidebar .nav-item .collapse, .sidebar .nav-item .collapsing {
+        margin: 0 0;
+    }
+}
+@media (max-width: 767.98px){
+    div#dataTable_length {
+        margin: 10px auto;
+    }
+}
+
