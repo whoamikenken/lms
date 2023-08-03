@@ -123,9 +123,6 @@ class AdminController extends Controller
 
         $data_results_ls = json_encode($result_ls);
 
-        
-        
-
         return view('admin.dashboard.dashboard', compact('users','categories','questions','usersm',
         'usersf','r_bsit','r_bscs','data_results_bsit','failed_bsit','passed_bsit',
         'data_results_bscs','failed_bscs','passed_bscs','usersfbsit','usersmbsit','usersfbscs','usersmbscs','data_results_ls','ls_bsit','ls_bscs'));

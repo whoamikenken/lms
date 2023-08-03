@@ -29,7 +29,7 @@ services:
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
-      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+      - ./data:/var/lib/mysql
     networks:
       - lms
 

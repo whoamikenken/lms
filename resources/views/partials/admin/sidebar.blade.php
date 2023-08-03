@@ -3,7 +3,7 @@
 
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('admin/dashboard')}}">
-<img src="/assets/img/logo.jpg" alt="logo" width="50" height="50"> 
+<img src="assets/img/logo.jpg" alt="logo" width="50" height="50"> 
     
 </a>
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('admin/dashboard')}}">

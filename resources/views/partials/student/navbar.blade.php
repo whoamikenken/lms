@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
     <div class="container">
    
-        <a class="navbar-brand" href="{{ url('admin/student/welcome') }}"> <img src="/assets/img/logo.jpg" alt="logo" width="50" height="50">  {{ trans('panel.site_title') }}</a>
+        <a class="navbar-brand" href="{{ url('admin/student/welcome') }}"> <img src="lms/assets/img/logo.jpg" alt="logo" width="50" height="50">  {{ trans('panel.site_title') }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
         </button>
