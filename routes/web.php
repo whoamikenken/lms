@@ -11,9 +11,6 @@ Route::get('/', function () {
     return redirect()->route('admin.student.welcome');
 });
 
-
-
-
 Route::get('clear_database', function () {
     \Artisan::call('cache:clear');
     \Artisan::call('migrate:fresh --seed');

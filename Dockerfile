@@ -34,6 +34,12 @@ RUN docker-php-ext-install \
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
+RUN chmod -R 777 /var/www/storage/framework/sessions
+RUN chown -R www-data:www-data /var/www/storage/framework/sessions
+
+# RUN chmod -R 755 /var/www/html/pos/writable/cache/
+# RUN chown -R www-data:www-data /var/www/html/pos/writable/cache/
+
 # Get latest Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
